@@ -1,3 +1,11 @@
+# ID is like checking the code's license plate print(id(result)
+#mutable and immutable :  bool strings, etc
+
+
+
+
+
+
 # name = input("Please enter name")
 # print("sup"+ '  ' + name)
 # splitString = "This string has been \n split over \n several \n lines"
@@ -494,9 +502,9 @@
 # print(even)
 #-------------------------------------------------------------
 #docs.python.org/3/library/functions.html
-somestring = "This is the example of a string being iterated"
-letter = sorted(somestring)
-print(letter)
+# somestring = "This is the example of a string being iterated"
+# letter = sorted(somestring)
+# print(letter)
 #capital letters come first, some letters are duplicated
 #letters are cloned in the sorted function
 
@@ -506,10 +514,14 @@ print(letter)
 # sorted_numbers = sorted(numbers)
 # print(sorted_numbers)
 #-------------------------------------------------------------
-# numbers = [2.3, 2.5, 8.7, 3.1, 9.2, 1.6]
-# numbers.sort()
-# print(numbers)   #this is the difference from above
-#-------------------------------------------------------------
+numbers = [2.3, 2.5, 8.7, 3.1, 9.2, 1.6]
+numbers.sort()
+print(numbers)   #this is the difference from above
+#-------------------------------------------------------------99 sorting
+# pancake = "the little hedgehog is a champ"
+#
+# letter = sorted(pancake)
+# print(letter)
 
 
 

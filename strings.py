@@ -513,16 +513,25 @@
 # numbers = [2.3, 2.5, 8.7, 3.1, 9.2, 1.6]
 # sorted_numbers = sorted(numbers)
 # print(sorted_numbers)
-#-------------------------------------------------------------
-numbers = [2.3, 2.5, 8.7, 3.1, 9.2, 1.6]
-numbers.sort()
-print(numbers)   #this is the difference from above
+#------------------------------------------------------------- confusing
+# numbers = [2.3, 2.5, 8.7, 3.1, 9.2, 1.9]
+# numbers.sort()
+# print(numbers)   #this is the difference from above
 #-------------------------------------------------------------99 sorting
 # pancake = "the little hedgehog is a champ"
 #
 # letter = sorted(pancake)
 # print(letter)
+#------------------------------------------------------------- case insensitive
+randomNames = ['Dude',
+               'homie',
+               'calvin',
+               'chipmunk'
+               ]
+randomNames.sort(key=str.casefold)
+print(randomNames)
 
-
-
+#-------------------------------------------------------------
+# I'm practicing Cyber security today 3/21
+#-------------------------------------------------------------
 #-------------------------------------------------------------
